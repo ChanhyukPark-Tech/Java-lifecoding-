@@ -18,6 +18,6 @@ public class Lighting implements OnOff{
 	public Boolean isOn() {
 		Random rand = new Random();
 		return rand.nextBoolean();
-	}
+	} 
 	
 }

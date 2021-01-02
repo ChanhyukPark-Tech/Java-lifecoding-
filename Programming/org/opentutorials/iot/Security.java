@@ -14,7 +14,7 @@ public class Security implements OnOff{
 	public boolean off() {
 		System.out.println(this._id+" -> Security off");
 		return true;
-	}
+	} 
 	public int getExistPeopleNumber() {
 		Random rand = new Random();
 		System.out.println(this._id+"\tSecurity exist people number : "+rand);
