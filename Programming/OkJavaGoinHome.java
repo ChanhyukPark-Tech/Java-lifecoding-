@@ -16,7 +16,7 @@ public class OkJavaGoinHome {
 		Security mySecurity = new Security(id);
 		mySecurity.off();
 		
-		// Light on 
+		// Light on  
 		Lighting hallLamp = new Lighting(id+" / Hall Lamp");
 		hallLamp.on();
 		
