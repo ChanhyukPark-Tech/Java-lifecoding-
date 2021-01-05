@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class AccountingApp {
 
 	public static void main(String[] args) {
-	
+	 
 		
 		double ValueOfSupply = Double.parseDouble(args[0]);
 		double expenseRate = 0.3;
